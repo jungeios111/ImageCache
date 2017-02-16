@@ -66,13 +66,6 @@
     [super viewDidLoad];
     
     NSLog(@"这是一个测试demo");
-    NSLog(@"这是一个测试demo");
-    NSLog(@"这是一个测试demo");
-    NSLog(@"这是一个测试demo");
-    NSLog(@"这是一个测试demo");
-    NSLog(@"这是一个测试demo");
-    
-    
     NSLog(@"我是甲乙丙丁");
 }
 
