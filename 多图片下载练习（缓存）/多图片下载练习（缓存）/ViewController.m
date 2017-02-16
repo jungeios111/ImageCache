@@ -65,6 +65,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"这是一个测试demo");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
