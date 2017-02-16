@@ -67,9 +67,7 @@
     
     NSLog(@"这是一个测试demo");
     NSLog(@"我是甲乙丙丁");
-    NSLog(@"我是甲乙丙丁");
-    NSLog(@"我是甲乙丙丁");
-    NSLog(@"我是甲乙丙丁");
+    NSLog(@"我是电我是光我是唯一的神话");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
