@@ -67,6 +67,9 @@
     
     NSLog(@"这是一个测试demo");
     NSLog(@"我是甲乙丙丁");
+    NSLog(@"我是甲乙丙丁");
+    NSLog(@"我是甲乙丙丁");
+    NSLog(@"我是甲乙丙丁");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
