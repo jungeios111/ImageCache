@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6564411DDA92E200515937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6564401DDA92E200515937 /* main.m */; };
+		7B6564441DDA92E200515937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6564431DDA92E200515937 /* AppDelegate.m */; };
+		7B6564471DDA92E200515937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6564461DDA92E200515937 /* ViewController.m */; };
+		7B65644A1DDA92E200515937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6564481DDA92E200515937 /* Main.storyboard */; };
+		7B65644C1DDA92E200515937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B65644B1DDA92E200515937 /* Assets.xcassets */; };
+		7B65644F1DDA92E200515937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B65644D1DDA92E200515937 /* LaunchScreen.storyboard */; };
+		7B6564571DDA937A00515937 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B6564561DDA937A00515937 /* apps.plist */; };
+		7B65645A1DDA956100515937 /* ZKJApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6564591DDA956100515937 /* ZKJApp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B65643C1DDA92E200515937 /* 多图片下载练习（缓存）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多图片下载练习（缓存）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6564401DDA92E200515937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6564421DDA92E200515937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6564431DDA92E200515937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6564451DDA92E200515937 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B6564461DDA92E200515937 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B6564491DDA92E200515937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B65644B1DDA92E200515937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B65644E1DDA92E200515937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6564501DDA92E200515937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6564561DDA937A00515937 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		7B6564581DDA956100515937 /* ZKJApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKJApp.h; sourceTree = "<group>"; };
+		7B6564591DDA956100515937 /* ZKJApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKJApp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6564391DDA92E200515937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6564331DDA92E200515937 = {
+			isa = PBXGroup;
+			children = (
+				7B65643E1DDA92E200515937 /* 多图片下载练习（缓存） */,
+				7B65643D1DDA92E200515937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B65643D1DDA92E200515937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B65643C1DDA92E200515937 /* 多图片下载练习（缓存）.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B65643E1DDA92E200515937 /* 多图片下载练习（缓存） */ = {
+			isa = PBXGroup;
+			children = (
+				7B6564421DDA92E200515937 /* AppDelegate.h */,
+				7B6564431DDA92E200515937 /* AppDelegate.m */,
+				7B6564451DDA92E200515937 /* ViewController.h */,
+				7B6564461DDA92E200515937 /* ViewController.m */,
+				7B65643F1DDA92E200515937 /* Supporting Files */,
+				7B6564581DDA956100515937 /* ZKJApp.h */,
+				7B6564591DDA956100515937 /* ZKJApp.m */,
+			);
+			path = "多图片下载练习（缓存）";
+			sourceTree = "<group>";
+		};
+		7B65643F1DDA92E200515937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6564561DDA937A00515937 /* apps.plist */,
+				7B6564481DDA92E200515937 /* Main.storyboard */,
+				7B65644B1DDA92E200515937 /* Assets.xcassets */,
+				7B65644D1DDA92E200515937 /* LaunchScreen.storyboard */,
+				7B6564501DDA92E200515937 /* Info.plist */,
+				7B6564401DDA92E200515937 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B65643B1DDA92E200515937 /* 多图片下载练习（缓存） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6564531DDA92E200515937 /* Build configuration list for PBXNativeTarget "多图片下载练习（缓存）" */;
+			buildPhases = (
+				7B6564381DDA92E200515937 /* Sources */,
+				7B6564391DDA92E200515937 /* Frameworks */,
+				7B65643A1DDA92E200515937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多图片下载练习（缓存）";
+			productName = "多图片下载练习（缓存）";
+			productReference = 7B65643C1DDA92E200515937 /* 多图片下载练习（缓存）.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6564341DDA92E200515937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ZKJ;
+				TargetAttributes = {
+					7B65643B1DDA92E200515937 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PU39U8DFF5;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 7B6564371DDA92E200515937 /* Build configuration list for PBXProject "多图片下载练习（缓存）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6564331DDA92E200515937;
+			productRefGroup = 7B65643D1DDA92E200515937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B65643B1DDA92E200515937 /* 多图片下载练习（缓存） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B65643A1DDA92E200515937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6564571DDA937A00515937 /* apps.plist in Resources */,
+				7B65644F1DDA92E200515937 /* LaunchScreen.storyboard in Resources */,
+				7B65644C1DDA92E200515937 /* Assets.xcassets in Resources */,
+				7B65644A1DDA92E200515937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6564381DDA92E200515937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6564471DDA92E200515937 /* ViewController.m in Sources */,
+				7B6564441DDA92E200515937 /* AppDelegate.m in Sources */,
+				7B6564411DDA92E200515937 /* main.m in Sources */,
+				7B65645A1DDA956100515937 /* ZKJApp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B6564481DDA92E200515937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6564491DDA92E200515937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B65644D1DDA92E200515937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B65644E1DDA92E200515937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6564511DDA92E200515937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B6564521DDA92E200515937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6564541DDA92E200515937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Chao (U9YF328994)";
+				DEVELOPMENT_TEAM = PU39U8DFF5;
+				INFOPLIST_FILE = "多图片下载练习（缓存）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebank11.150;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+				PROVISIONING_PROFILE_SPECIFIER = AlexSongDev;
+			};
+			name = Debug;
+		};
+		7B6564551DDA92E200515937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Chao (U9YF328994)";
+				DEVELOPMENT_TEAM = PU39U8DFF5;
+				INFOPLIST_FILE = "多图片下载练习（缓存）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebank11.150;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+				PROVISIONING_PROFILE_SPECIFIER = AlexSongDev;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6564371DDA92E200515937 /* Build configuration list for PBXProject "多图片下载练习（缓存）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6564511DDA92E200515937 /* Debug */,
+				7B6564521DDA92E200515937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6564531DDA92E200515937 /* Build configuration list for PBXNativeTarget "多图片下载练习（缓存）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6564541DDA92E200515937 /* Debug */,
+				7B6564551DDA92E200515937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6564341DDA92E200515937 /* Project object */;
+}
